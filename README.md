@@ -13,7 +13,7 @@ Ryder is a React Native project designed to facilitate carpooling and ridesharin
 - **Registration:** New users can register to create an account.
 - **Password Recovery:** Users can recover their passwords using the "Forgot?" option.
 
-![Login Screen](image.png)
+![Login Screen](<img width="190" alt="Image" src="https://github.com/ShubhamMaurya22/react-native-finance-tracker/assets/104679743/0cb5ec25-3cbf-45a1-84fa-d93177c12f60">)
 
 ### Ride Posting
 
@@ -28,9 +28,9 @@ Drivers can post a ride by following these steps:
 7. **Select Seats:** Enter the total number of seats available.
 8. **Publish Ride:** The ride is published and visible to all passengers.
 
-![Vehicle Selection](image-1.png)
-![Model Selection](image-2.png)
-![Vehicle Description](image-3.png)
+![Vehicle Selection](<img width="197" alt="Screenshot 2024-04-09 222539" src="https://github.com/ShubhamMaurya22/react-native-finance-tracker/assets/104679743/4c3b5457-d607-4244-b2e4-39c914bdc5e9">)
+![Model Selection](<img width="199" alt="Screenshot 2024-04-09 222602" src="https://github.com/ShubhamMaurya22/react-native-finance-tracker/assets/104679743/633f30a7-b7b9-4d8c-ba9c-eb14c6101682">)
+![Vehicle Description](<img width="199" alt="Screenshot 2024-04-09 222628" src="https://github.com/ShubhamMaurya22/react-native-finance-tracker/assets/104679743/8e0d520e-7fa1-4fe6-81f5-a0857cd3359b">)
 
 ### Ride Searching
 
