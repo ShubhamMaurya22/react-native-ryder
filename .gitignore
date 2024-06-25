@@ -1,3 +1,6 @@
+/firebase.js
+./firebase.js
+firebase.js
 # OSX
 #
 .DS_Store
@@ -65,4 +68,4 @@ yarn-error.log
 # testing
 /coverage
 
-firebase.js
+
