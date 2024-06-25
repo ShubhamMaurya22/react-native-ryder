@@ -65,4 +65,4 @@ yarn-error.log
 # testing
 /coverage
 
-firebase.sample.js
+firebase.js
