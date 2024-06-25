@@ -11,11 +11,11 @@ import {
   faLocationDot,
   faTrash,
 } from '@fortawesome/free-solid-svg-icons';
-import imagePath from '../../src/constant/imagePath';
+import imagePath from '../../constant/imagePath';
 import {useSelector} from 'react-redux';
 import firestore from '@react-native-firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {app, auth, db} from '../../firebase';
+import {app, auth, db} from '../../../firebase';
 
 const OfferRoute = ({navigation}) => {
   const [data, setData] = useState([]);

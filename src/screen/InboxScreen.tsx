@@ -2,7 +2,7 @@ import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faAngleLeft} from '@fortawesome/free-solid-svg-icons';
-import InboxChatDisplay from '../../components/Inbox/InboxChatDisplay';
+import InboxChatDisplay from '../components/Inbox/InboxChatDisplay';
 
 const InboxScreen = ({navigation}: any) => {
   return (

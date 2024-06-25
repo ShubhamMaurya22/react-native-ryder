@@ -20,10 +20,10 @@ import {
 } from 'react-native-gesture-handler';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faArrowRight, faLocationDot} from '@fortawesome/free-solid-svg-icons';
-import imagePath from '../../src/constant/imagePath';
+import imagePath from '../../constant/imagePath';
 import RNUpiPayment from 'react-native-upi-payment';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {client_id, client_secret} from '../../src/constant/upiKey';
+import {client_id, client_secret} from '../../constant/upiKey';
 import {useDispatch, useSelector} from 'react-redux';
 import firestore from '@react-native-firebase/firestore';
 import Snackbar from 'react-native-snackbar';

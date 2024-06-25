@@ -9,7 +9,7 @@ import {
 
 import SelectVehicleType from './SelectVehicleType';
 import Header from './Header';
-import {VehicleInfo} from '../../src/constant/vehicleInfo';
+import {VehicleInfo} from '../../constant/vehicleInfo';
 
 const ModalDetails = ({navigation, route}) => {
   const {BrandName, Data, Type} = route.params;

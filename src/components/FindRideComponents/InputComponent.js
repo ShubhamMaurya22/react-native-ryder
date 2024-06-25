@@ -16,7 +16,7 @@ import {
   addSource,
   addCount,
   addTravelInfo,
-} from '../../src/features/passengerInfoSlice';
+} from '../../features/passengerInfoSlice';
 import Toast from 'react-native-toast-message';
 import Snackbar from 'react-native-snackbar';
 

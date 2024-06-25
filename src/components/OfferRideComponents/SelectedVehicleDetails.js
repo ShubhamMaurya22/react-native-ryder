@@ -15,12 +15,12 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import SelectVehicleType from './SelectVehicleType';
 import Header from './Header';
 import {Image} from 'react-native-elements';
-import imagePath from '../../src/constant/imagePath';
+import imagePath from '../../constant/imagePath';
 import firestore from '@react-native-firebase/firestore';
 
 //toolkit
 import {useDispatch} from 'react-redux';
-import {addVehicle} from '../../src/features/carPublishInfoSlice';
+import {addVehicle} from '../../features/carPublishInfoSlice';
 
 const SelectedVehicleDetails = ({route, navigation}) => {
   const {modelName, brandName, type} = route.params;

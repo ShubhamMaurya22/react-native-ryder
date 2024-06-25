@@ -1,8 +1,8 @@
 import React, {useRef, useState, useEffect, useDebugValue} from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import MapView from 'react-native-maps';
-import BottomSheetForOfferRide from '../../components/MapAndOfferDisplay/BottomSheetForOfferRide';
-import Header from '../../components/MapAndOfferDisplay/Header';
+import BottomSheetForOfferRide from '../components/MapAndOfferDisplay/BottomSheetForOfferRide';
+import Header from '../components/MapAndOfferDisplay/Header';
 import MapLibreGL from '@maplibre/maplibre-react-native';
 import {API_KEY} from '../constant/googleMapAPIKey';
 import {UseSelector, useDispatch, useSelector} from 'react-redux';

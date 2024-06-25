@@ -14,7 +14,7 @@ import {
   faLocationDot,
   faTrash,
 } from '@fortawesome/free-solid-svg-icons';
-import imagePath from '../../src/constant/imagePath';
+import imagePath from '../../constant/imagePath';
 import firestore from '@react-native-firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

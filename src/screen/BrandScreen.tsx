@@ -8,7 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {Image} from 'react-native-elements';
 import {VehicleInfo} from '../constant/vehicleInfo';
-import VehicleItemList from '../../components/OfferRideComponents/VehicleItemList';
+import VehicleItemList from '../components/OfferRideComponents/VehicleItemList';
 
 const BrandScreen = ({navigation, vehicleType}: any) => {
   const data = VehicleInfo.find(item => item.type === vehicleType)?.data || [];

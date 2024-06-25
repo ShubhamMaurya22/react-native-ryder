@@ -1,10 +1,10 @@
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import React, {useEffect, useState} from 'react';
-import Header from '../../components/FindRideComponents/Header';
-import InputComponentOfferRide from '../../components/OfferRideComponents/InputComponentOfferRide';
+import Header from '../components/FindRideComponents/Header';
+import InputComponentOfferRide from '../components/OfferRideComponents/InputComponentOfferRide';
 import {useSelector} from 'react-redux';
 import OfferRide from './OfferRide';
-import OfferRoute from '../../components/OfferRideComponents/OfferRoute';
+import OfferRoute from '../components/OfferRideComponents/OfferRoute';
 
 const OfferRideSearchLocation = ({navigation, routePublish}: any) => {
   const vehicle = useSelector((state: any) => state.vehicleDetails);

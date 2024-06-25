@@ -10,12 +10,12 @@ import {
   addSource,
   addTravelInfo,
   addIsRideAdded,
-} from '../../src/features/driverInfoSlice';
+} from '../../features/driverInfoSlice';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import Snackbar from 'react-native-snackbar';
 import firestore from '@react-native-firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {app, auth, db} from '../../firebase';
+import {app, auth, db} from '../../../firebase';
 import uuid from 'react-native-uuid';
 
 const BottomSheetForOfferRide = ({navigation}) => {

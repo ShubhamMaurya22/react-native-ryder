@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import React, {useEffect, useState} from 'react';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
-import BottomSheet from '../../components/MapAndRideDisplay/BottomSheetComponent';
-import Header from '../../components/MapAndRideDisplay/Header';
+import BottomSheet from '../components/MapAndRideDisplay/BottomSheetComponent';
+import Header from '../components/MapAndRideDisplay/Header';
 import imagePath from '../constant/imagePath';
 import Geolocation from '@react-native-community/geolocation';
 import MapLibreGL from '@maplibre/maplibre-react-native';

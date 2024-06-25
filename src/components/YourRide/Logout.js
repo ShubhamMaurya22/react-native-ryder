@@ -1,6 +1,6 @@
 import {View, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
-import {auth} from '../../firebase';
+import {auth} from '../../../firebase';
 import Snackbar from 'react-native-snackbar';
 
 const logout = () => {

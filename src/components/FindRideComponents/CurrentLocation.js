@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faCrosshairs, faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import Geolocation from '@react-native-community/geolocation';
 import MapLibreGL from '@maplibre/maplibre-react-native';
-import {API_KEY} from '../../src/constant/googleMapAPIKey';
+import {API_KEY} from '../../constant/googleMapAPIKey';
 
 MapLibreGL.setAccessToken(null);
 

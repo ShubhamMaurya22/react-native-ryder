@@ -9,8 +9,8 @@ import {
 import React, {useState, useEffect} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faAngleLeft, faXmark} from '@fortawesome/free-solid-svg-icons';
-import CurrentLocation from '../../components/FindRideComponents/CurrentLocation';
-import SchedulePools from '../../components/FindRideComponents/SchedulePools';
+import CurrentLocation from '../components/FindRideComponents/CurrentLocation';
+import SchedulePools from '../components/FindRideComponents/SchedulePools';
 import Geolocation from '@react-native-community/geolocation';
 import MapLibreGL from '@maplibre/maplibre-react-native';
 import {API_KEY} from '../constant/googleMapAPIKey';

@@ -18,7 +18,7 @@ import {
   addSource,
   addTravelInfo,
   addIsRideAdded,
-} from '../../src/features/driverInfoSlice';
+} from '../../features/driverInfoSlice';
 import Snackbar from 'react-native-snackbar';
 
 const InputComponentOfferRide = ({navigation, isPosting}) => {

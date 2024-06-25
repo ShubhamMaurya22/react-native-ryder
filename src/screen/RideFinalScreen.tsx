@@ -1,6 +1,6 @@
 import {ScrollView, StyleSheet, Text, View, Linking} from 'react-native';
 import React, {useEffect, useState} from 'react';
-import Header from '../../components/FinalMapScreenComponents/Header';
+import Header from '../components/FinalMapScreenComponents/Header';
 import MapLibreGL from '@maplibre/maplibre-react-native';
 import {API_KEY} from '../constant/googleMapAPIKey';
 import {Image} from 'react-native-elements';
